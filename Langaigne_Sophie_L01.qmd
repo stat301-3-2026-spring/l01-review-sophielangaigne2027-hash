@@ -28,14 +28,6 @@ citation-location: margin
 [Sophie's L01 Review Link](https://github.com/stat301-3-2026-spring/l01-review-sophielangaigne2027-hash.git)
 :::
 
-## Overview
-
-The goal of this lab is to review machine learning/predictive modeling vocabulary and concepts covered in Data Science 2 with R (STAT 301-2).
-
-## Questions
-
-When completing the following questions ensure your solutions are neatly formatted and clearly indicated. Consider including diagrams/images in some of your solutions, if it helps to make things easier to describe/discuss.
-
 ### Question 1
 
 Provide a brief outline/overview of the steps involved in a supervised machine learning process. Could provide this as a bulleted list. 
@@ -58,11 +50,15 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
+
 Supervised learning has a target variable that we are trying to predict an outcome about.
 
 Unsupervised learning doesn't have a target variable of interest and we want to understand the structure of the data and extract information about that dataset. 
 
+![Unsupervised and Supervised Learning](images/learning.png)
 :::
+
+
 
 ### Question 3 
 
@@ -261,3 +257,6 @@ This is a prediction problem because it is trying to predict the probability tha
 Citations
 
 OpenAI. (2023). ChatGPT (April 2023 version) [Large language model]. Retrieved April 5, 2026, from https://chat.openai.com/
+
+Unsupervised and Supervised Learning
+Katzman, D. "Supervised vs Unsupervised Learning and Use Cases for Each." Medium, https://medium.com/@dkatzman_3920/supervised-vs-unsupervised-learning-and-use-cases-for-each-8b9cc3ebd301.
