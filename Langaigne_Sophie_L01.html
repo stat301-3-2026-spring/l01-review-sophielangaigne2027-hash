@@ -2275,7 +2275,8 @@ vertical-align: -.125em;
 </div>
 <div class="callout-body-container callout-body">
 <p>Figure out where a problem is a classification or regression and what metric you might want to use. After we should clean the dataset and handdle it’s missing values and encode categies using factor, etc.</p>
-<p>Next, we split the dataset into training and testing data and adding folds for resampling to reduce overfitting and improves model evaluation. Then we can choose the models that we would like to use to help us. We can then tune our hyperparameters to help balance underfitting and overfitting and also improve accuracy.This leads us to training our models using our data and then evaluating these models by collecting our assessment metrics. Pick the best model based on the metrics.</p>
+<p>Next, we split the dataset into training and testing data and adding folds for resampling to reduce overfitting and improves model evaluation. Then we can choose the models that we would like to use to help us. We can then tune our hyperparameters to help balance underfitting and overfitting and also improve accuracy.</p>
+<p>This leads us to training our models using our data and then evaluating these models by collecting our assessment metrics. Lastly, pick the best model based on the metrics.</p>
 </div>
 </div>
 </section>
@@ -2292,7 +2293,8 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Supervised learning has a target variable that we are trying to predict an outcome about. Unsupervised learning doesn’t have a target variable of interest and we want to understand the structure of the data and extract information about that dataset.</p>
+<p>Supervised learning has a target variable that we are trying to predict an outcome about.</p>
+<p>Unsupervised learning doesn’t have a target variable of interest and we want to understand the structure of the data and extract information about that dataset.</p>
 </div>
 </div>
 </section>
@@ -2364,7 +2366,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>To be a mechanistic model, it means that it is built from theory or knowledge about a system or topic. Data is only used to estimate parameters so we can better predict.</p>
 </div>
 </div>
 </section>
@@ -2381,7 +2383,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>When a model is empirically driven this means that our prediction is based on the dataset only and no theory or other knowledge. This means that predictions are other variables in the dataset and patterns in the data rather than outside formulas.</p>
 </div>
 </div>
 </section>
@@ -2398,7 +2400,8 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>Parametric models assume that there is a relationship between variables, meaning that the model has a fixed number of parameters to estimate. This means that estimation might be off for parametric models. The majority of mechanistic models are parametric because they are build off of theory and other knowledge like formulas meaning that variables are more likely to have direct relationsips.</p>
+<p>Nonparametric models dont assume that there is a relationship between variables and are built based on the data that is provided, meaning as there is more data there is more complexity within the data. Many empiricially driven models are nonparametric since it is not based on other knowledge or relationships between variables and anything we know about the dataset is based on patterns within the data.</p>
 </div>
 </div>
 </section>
@@ -2415,7 +2418,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>Mechanistic models are much easier to interpret because there is less flexibility within the data and they are based on theory so there are clear explanations as to why the data is behaving in a certain way and why variables are interacting with one another before we even observe the data. In the contrary empirically driven models learn their structure from the data which is often time random, so the majority of the time it is more difficult to explain why the data may be behaving in a certain way. For these models we can see complexity between variables better but we also don’t have a clear explanation as to why these variables are interacting in that way.</p>
 </div>
 </div>
 </section>
@@ -2432,7 +2435,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>Empirically driven models are generally more flexible than mechanistic models since they dont assume relationships within the data and are made to adapt to the data. This is why they are able to capture more complexed relationships between variables. Mechanistic models are more fixed by theories, formulas and set information so they cant be as flexible.</p>
 </div>
 </div>
 </section>
@@ -2449,7 +2452,8 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>Mechanistic models have high bias and low variance because they are fixed and may fail to capture the complexity of a relationship but they are also fixed meaning they are stable and dont vary as much based on data.</p>
+<p>Empirically driven models have low bias and high variance due to their flexibility. Because these models are only working based on the data provided their bias is significantly lower because data is often random but they have higher variance because they are sensitive to fluctuations in training data. This means that there is a high chance of overfitting and underfitting.</p>
 </div>
 </div>
 </section>
@@ -2484,7 +2488,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>When splitting the data, it is useful to stratify by the target variable ensures that each subset of data training, validation and test has the same proportiong of target distribution as the original dataset. This mean that the performance metrics will be representative of the dataset and bias will be reduced.</p>
+<p>When splitting the data, it is useful to stratify by the target variable ensures that each subset of data training, validation and test has the same proportion of target distribution as the original dataset. This mean that the performance metrics will be representative of the dataset and bias will be reduced.</p>
 </div>
 </div>
 </section>
@@ -2566,7 +2570,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>Two common performance metrics when dealing with a classification machine learning problems are accuracy and error rate. When we discuss accuracy we can also focus on true positives and negatives and false positives and negatives in confusion matrices that are used to calculate accuracy so we have a better understanding of where the model is suceeding and/or failing. Error rate can also help us understand how far off we may be when comes to our confidence that we predicted correctly.</p>
 </div>
 </div>
 </section>
