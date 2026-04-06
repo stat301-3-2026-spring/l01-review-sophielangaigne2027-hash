@@ -1,8 +1,8 @@
 ---
 title: "L01 Review"
 subtitle: "Data Science 3 with R (STAT 301-3)"
-author: "YOUR NAME"
-pagetitle: "L01 YOUR NAME"
+author: "Sophie Langaigne"
+pagetitle: "L01 Sophie Langaigne"
 date: today
 
 format:
@@ -25,10 +25,7 @@ citation-location: margin
 
 ::: {.callout-tip icon="false"}
 ## Github Repo Link
-
-To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
-
-[https://your-github-repo-url](https://your-github-repo-url)
+[Sophie's L01 Review Link](https://github.com/stat301-3-2026-spring/l01-review-sophielangaigne2027-hash.git)
 :::
 
 ## Overview
@@ -46,7 +43,9 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Figure out where a problem is a classification or regression and what metric you might want to use. After we should clean the dataset and handdle it's missing values and encode categies using factor, etc. 
+
+Next, we split the dataset into training and testing data and adding folds for resampling to reduce overfitting and improves model evaluation. Then we can choose the models that we would like to use to help us. We can then tune our hyperparameters to help balance underfitting and overfitting and also improve accuracy.This leads us to training our models using our data and then evaluating these models by collecting our assessment metrics. Pick the best model based on the metrics. 
 
 :::
 
@@ -57,7 +56,8 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Supervised learning has a target variable that we are trying to predict an outcome about.
+Unsupervised learning doesn't have a target variable of interest and we want to understand the structure of the data and extract information about that dataset. 
 
 :::
 
@@ -70,7 +70,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Describe trends, relationships and characteristics of a dataset. These are used to understand the structure of a dataset. Linear models and Parametric models (parameters that are easier to explain) are examples of this. Summarize the dataset so that we have a better understanding of the problems that we may be dealing with when it comes to cleaning data.  
 
 :::
 
@@ -78,8 +78,7 @@ YOUR SOLUTION HERE
 
 ::: {.callout-tip icon="false"}
 ## Solution
-
-YOUR SOLUTION HERE
+Explains the how and the why of relationships between variable. We want to infer if relationships are statistically significant. Is this dataset casual or generalizable? What inputs effect outputs?. Parametric models. 
 
 :::
 
@@ -88,7 +87,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Making a prediction of a variable based on other variables.  
 
 :::
 
@@ -169,8 +168,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+Regression and Classification machine learning problems predict different types of variables. Regression problems predict continuous numeric values (quantitative) and Classification problems predict discrete categorical values (qualitative). 
 :::
 
 ### Question 6 
@@ -180,8 +178,7 @@ When splitting the data, why is it useful to stratify by the outcome/target vari
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
-
+When splitting the data, it is useful to stratify by the target variable ensures that each subset of data training, validation and test has the same proportiong of target distribution as the original dataset. This mean that the performance metrics will be representative of the dataset and bias will be reduced. 
 :::
 
 ### Question 7 
@@ -190,9 +187,7 @@ Briefly describe how v-fold cross validation with repeats is used to estimate te
 
 ::: {.callout-tip icon="false"}
 ## Solution
-
-YOUR SOLUTION HERE
-
+When doing v-fold cross validation with repeats we split our dataset into folds so that we have a validation set and the model is trained on the rest of the folds. This helps reduce variability and we can get a better estimate of the model's test RMSE since we can take the average of all of the folds. This means with more folds we can get pieces of the dataset that are representative of our entire dataset and with more folds we will have many version we will have the best estimate to make generalizable statements about the dataset. 
 :::
 
 ### Question 8
@@ -201,8 +196,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 
 ::: {.callout-tip icon="false"}
 ## Solution
-
-YOUR SOLUTION HERE
+Bootstrap resampling is when we sample without replacement from our dataset. When we have a smaller dataset we would be more likely to use bootstrap resampling instead of cross validation because we want to be able to use the most of the data in different ways since we dont have much to work with. In addition, we can get a better distribution of test metrics so we have a better idea of how well our model is doing. 
 
 :::
 
@@ -213,7 +207,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Model tuning is when we adjust a model's hyperparameters, such as learning rate, tree depth, or regularization strength to improve its performance. By changing hyperparameters and their ranges we can improve how well a model learns from our data and can improve generalizability. 
 
 :::
 
@@ -223,9 +217,7 @@ What are two common performance metrics when dealing with a regression ML proble
 
 ::: {.callout-tip icon="false"}
 ## Solution
-
-YOUR SOLUTION HERE
-
+Two common performance metrics when dealing with a regression machine learning problem are RMSE and MAE. RMSE is the square root of the average of squared differences between predicted and actual values. This metric is important because it penalizes larger errors more heavily and shows when a model may be more off. MAE shows the absolute differences between predicted and actual values and can help show when a model's prediction is off and by how much it is off. 
 :::
 
 What are two common performance metrics when dealing with a classification ML problem?
@@ -248,7 +240,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This is an inferential problem because it is focused on the relationship between two variables service calls and churn and whether there is casuality between the two variables. 
 
 :::
 
@@ -257,7 +249,10 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+This is a prediction problem because it is trying to predict the probability that a customer will churn and its purpose to be as accurate as possible about what that probability will be. 
 
 :::
 
+Citations
+
+OpenAI. (2023). ChatGPT (April 2023 version) [Large language model]. Retrieved April 5, 2026, from https://chat.openai.com/
